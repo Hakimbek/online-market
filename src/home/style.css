@@ -1,0 +1,9 @@
+@import "style/header.css";
+@import "style/main.css";
+@import "style/footer.css";
+
+body {
+    margin: 0;
+    background-color: #18171c;
+}
+
