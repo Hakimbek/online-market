@@ -1,0 +1,21 @@
+.company-wrapper {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.company-label {
+    color: white;
+    font-size: 20px;
+}
+
+.company-select {
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.company-select:focus {
+    outline: 3px solid #d21e24;
+}

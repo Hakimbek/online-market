@@ -1,0 +1,25 @@
+.search-wrapper {
+    display: flex;
+    padding-left: 15px;
+    /*justify-content: center;*/
+}
+
+.search-input {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 230px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f1f5f8;
+    font-size: 18px;
+}
+
+.search-input:focus {
+    outline: 3px solid #d21e24;
+}
+
+.search-input::placeholder {
+    font-size: 18px;
+    color: black;
+}
