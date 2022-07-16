@@ -1,5 +1,5 @@
 .header-wrapper {
-    padding: 29px 30px;
+    padding: 25px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,7 +8,7 @@
 
 .header-links {
     display: flex;
-    font-size: 28px;
+    font-size: 30px;
     margin-left: auto;
 }
 
@@ -16,7 +16,7 @@
 .home {
     text-decoration: none;
     color: white;
-    transition: all 0.8s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .products:hover,
@@ -25,15 +25,5 @@
 }
 
 .products {
-    margin-right: 90px;
     margin-left: 50px;
-}
-
-.cart-img {
-    width: 40px;
-}
-
-.rs-logo {
-    width: 80px;
-    text-decoration: none;
 }

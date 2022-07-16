@@ -8,7 +8,7 @@
 
 .header-buttons {
     display: flex;
-    font-size: 28px;
+    font-size: 30px;
     margin-left: auto;
 }
 
@@ -16,7 +16,7 @@
 .home {
     text-decoration: none;
     color: white;
-    transition: all 0.8s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .products:hover,
@@ -25,8 +25,7 @@
 }
 
 .products {
-    margin-right: 50px;
-    margin-left: 50px;
+    margin: 0 50px;
 }
 
 .cart-img {
