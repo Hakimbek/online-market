@@ -2,6 +2,7 @@ import render from "../../view/products";
 import filter from "../../filter/filter";
 
 const color = () => {
+    // runs when black botton is clicked
     (document.getElementById('black') as HTMLElement).addEventListener('click', (e) => {
         const buttons = document.querySelectorAll('.color-wrapper__button') as NodeList;
 
@@ -28,6 +29,7 @@ const color = () => {
         render(filter);
     });
 
+    // runs when yellow botton is clicked
     (document.getElementById('yellow') as HTMLElement).addEventListener('click', (e) => {
         const buttons = document.querySelectorAll('.color-wrapper__button') as NodeList;
 
@@ -54,6 +56,7 @@ const color = () => {
         render(filter);
     });
 
+    // runs when blue botton is clicked
     (document.getElementById('blue') as HTMLElement).addEventListener('click', (e) => {
         const buttons = document.querySelectorAll('.color-wrapper__button') as NodeList;
 
@@ -80,6 +83,7 @@ const color = () => {
         render(filter);
     });
 
+    // runs when white botton is clicked
     (document.getElementById('white') as HTMLElement).addEventListener('click', (e) => {
         const buttons = document.querySelectorAll('.color-wrapper__button') as NodeList;
 
@@ -106,6 +110,7 @@ const color = () => {
         render(filter);
     });
 
+    // runs when red botton is clicked
     (document.getElementById('red') as HTMLElement).addEventListener('click', (e) => {
         const buttons = document.querySelectorAll('.color-wrapper__button') as NodeList;
 
