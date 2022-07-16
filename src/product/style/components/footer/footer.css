@@ -15,23 +15,22 @@
 }
 
 .github-logo {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0 50px;
 }
 
 .github-logo,
-.pc-logo {
+.pc-logo,
+.rs-logo {
     text-decoration: none;
-}
-
-.developed-year {
-    color: white;
-    font-size: 24px;
 }
 
 .rs-logo {
     width: 80px;
-    text-decoration: none;
+}
+
+.developed-year {
+    color: white;
+    font-size: 30px;
 }
 
 @media (min-width: 768px) and (max-width: 1200px){
@@ -43,5 +42,6 @@
 
     .developed-year {
         margin-right: 10px;
+        font-size: 25px;
     }
 }
