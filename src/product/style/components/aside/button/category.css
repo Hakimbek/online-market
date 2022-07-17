@@ -1,0 +1,28 @@
+.category-wrapper {
+    margin-left: 15px;
+}
+
+.category-title {
+    color: white;
+    font-size: 20px;
+    margin: 0 0 12px 0;
+}
+
+.category-button {
+    width: 100px;
+    height: 30px;
+    margin: 0 0 5px 0;
+    color: black;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+    border: none;
+}
+
+.category-button:hover {
+    background-color: red;
+}
+
+.button-clicked {
+    background-color: #d21e24;
+}

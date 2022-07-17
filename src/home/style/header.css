@@ -1,0 +1,29 @@
+.header-wrapper {
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0c0c0c;
+}
+
+.header-links {
+    display: flex;
+    font-size: 30px;
+    margin-left: auto;
+}
+
+.products,
+.home {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.products:hover,
+.home:hover {
+    color: #d21e24;
+}
+
+.products {
+    margin-left: 50px;
+}

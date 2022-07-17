@@ -1,0 +1,38 @@
+@import "input/search/search.css";
+@import "button/category.css";
+@import "select/company.css";
+@import "input/range/amountRange.css";
+@import "button/clearButton.css";
+@import "input/range/yearRange.css";
+@import "select/sort.css";
+@import "button/color.css";
+@import "input/checkbox/checkbox.css";
+
+.aside-wrapper {
+    width: 20%;
+    position: sticky;
+    top: 0;
+    background-color: #18171c;
+    padding: 0 15px;
+    height: 100vh;
+    float: left;
+}
+
+.aside-burger {
+    display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+    .aside-wrapper {
+        position: fixed;
+        width: 300px;
+        z-index: 99;
+        padding-top: 60px;
+        left: -350px;
+        transition: 0.4s ease-in-out;
+    }
+
+    .is-active {
+        left: 0;
+    }
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Laptop Market</title>
+</head>
+<body id="body">
+
+<!--Header-->
+
+<header class="header-wrapper">
+    <a href="index.html" class="logo">
+        <img src="assets/image/logo.png" alt="logo">
+    </a>
+    <div class="header-buttons">
+        <a href="index.html" class="home">Home</a>
+        <a href="product.html" class="products">Products</a>
+    </div>
+    <div class="cart">
+        <img src="assets/image/cart.png" class="cart-img" alt="cart">
+        <span class="cart-products">0</span>
+    </div>
+
+    <div class="burger" id="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+    <div class="burger-dark" id="burger-dark"></div>
+</header>
+
+<!---->
+
+<!--Aside-->
+
+<aside class="aside-wrapper">
+    <div class="search-wrapper">
+        <input type="search" autocomplete="off" autofocus class="search-input" id="searchInput" placeholder="Search by name">
+    </div>
+
+    <hr>
+
+    <div class="sort-wrapper">
+        <div>
+            <label for="sort" class="sort-wrapper__label">Sort by</label>
+        </div>
+        <select id="sort" class="sort-wrapper__select">
+            <option selected id="nameAsc" value="nameAsc">Name (A-Z)</option>
+            <option id="nameDesc" value="nameDesc">Name (Z-A)</option>
+            <option id="yearAsc" value="yearAsc">Year (Ascending)</option>
+            <option id="yearDesc" value="yearDesc">Year (Descending)</option>
+            <option id="priceAsc" value="priceAsc">Price (Ascending)</option>
+            <option id="priceDesc" value="priceDesc">Price (Descending)</option>
+        </select>
+    </div>
+
+    <hr>
+
+    <div class="category-wrapper">
+        <p class="category-title">Category</p>
+        <div>
+            <button value="all" id="all" class="category-button">All</button>
+        </div>
+        <div>
+            <button value="pc" id="pc" class="category-button">PC</button>
+        </div>
+        <div>
+            <button value="laptop" id="laptop" class="category-button">Laptop</button>
+        </div>
+        <div>
+            <button value="monoblock" id="monoblock" class="category-button">Monoblock</button>
+        </div>
+        <div>
+            <button value="monitor" id="monitor" class="category-button">Monitor</button>
+        </div>
+    </div>
+
+    <div class="company-wrapper">
+        <div>
+            <label for="company" class="company-label">Company</label>
+        </div>
+        <select id="company" class="company-select">
+            <option selected value="all">All</option>
+            <option id="hp" value="hp">HP</option>
+            <option id="lenovo" value="lenovo">Lenovo</option>
+            <option id="acer" value="acer">Acer</option>
+            <option id="avtech" value="avtech">Avtech</option>
+        </select>
+    </div>
+
+    <div class="amount-wrapper">
+        <label class="amount-label">Amount from <span id="amountFrom"></span> to <span id="amountTo"></span> </label>
+        <input class="amount-wrapper__input-range" type="range" min="0" max="100" id="amountLeft" value="0">
+        <input class="amount-wrapper__input-range" type="range" min="0" max="100" id="amountRight" value="100">
+
+        <div class="amount-slider">
+            <div class="amount-slider__track"></div>
+            <div class="amount-slider__range"></div>
+            <div class="amount-slider__thumb amount-left"></div>
+            <div class="amount-slider__thumb amount-right"></div>
+        </div>
+    </div>
+
+    <div class="year-wrapper">
+        <div class="year-label">Year from <span id="yearFrom"></span> to <span id="yearTo"></span> </div>
+        <input class="year-wrapper__input-range" step="25" type="range" min="0" max="100" id="yearLeft" value="0">
+        <input class="year-wrapper__input-range" step="25" type="range" min="0" max="100" id="yearRight" value="100">
+
+        <div class="year-slider">
+            <div class="year-slider__track"></div>
+            <div class="year-slider__range"></div>
+            <div class="year-slider__thumb year-left"></div>
+            <div class="year-slider__thumb year-right"></div>
+        </div>
+    </div>
+
+    <div class="color-wrapper">
+        <p class="color-label">Color</p>
+
+        <div class="color-wrapper__buttons">
+            <button class="color-wrapper__button" value="black" id="black"></button>
+            <button class="color-wrapper__button" value="white" id="white"></button>
+            <button class="color-wrapper__button" value="red" id="red"></button>
+            <button class="color-wrapper__button" value="blue" id="blue"></button>
+            <button class="color-wrapper__button" value="yellow" id="yellow"></button>
+        </div>
+    </div>
+
+    <div class="popular-wrapper">
+        <span class="popular-text">Popular products</span> <input class="popular-input" type="checkbox">
+    </div>
+
+    <hr>
+
+    <div class="clear-wrapper" id="main">
+        <button class="clear-button" id="clearFilters">Clear filters</button>
+        <button class="clear-button" id="clearLocalStorage">Clear local storage</button>
+    </div>
+</aside>
+
+<!---->
+
+<!--Main-->
+
+<main class="main-wrapper">
+
+</main>
+
+<!---->
+
+<!--Footer-->
+
+<footer class="footer-wrapper">
+    <div class="footer-links">
+        <a href="https://rs.school/js/" target="_blank" class="rs-logo">
+            <img src="assets/image/rs.png" class="rs-logo" alt="RS School logo">
+        </a>
+        <a href="https://github.com/Hakimbek" target="_blank" class="github-logo">
+            <img src="assets/image/github.png" alt="GitHub">
+        </a>
+        <a href="https://pcmarket.uz/" target="_blank" class="pc-logo">
+            <img src="assets/image/logo.png" alt="logo">
+        </a>
+    </div>
+
+    <div class="developed-year">
+        &copy; Rolling Scopes School 2022
+    </div>
+</footer>
+
+<!---->
+
+</body>
+</html>

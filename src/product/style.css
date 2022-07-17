@@ -1,0 +1,21 @@
+@import "style/components/header/header.css";
+@import "style/components/aside/aside.css";
+@import "style/components/main/main.css";
+@import "style/components/footer/footer.css";
+@import "style/components/main/products/product.css";
+
+body {
+    margin: 0;
+    background-color: #1a191f;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.is-active {
+    overflow: hidden;
+}

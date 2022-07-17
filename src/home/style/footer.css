@@ -1,0 +1,41 @@
+.footer-wrapper {
+    background-color: #0c0c0c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+}
+
+.github-logo,
+.pc-logo,
+.rs-logo {
+    text-decoration: none;
+}
+
+.rs-logo {
+    width: 80px;
+}
+
+.github-logo {
+    margin: 0 50px;
+}
+
+.developed-year {
+    color: white;
+    font-size: 30px;
+}
+
+@media (min-width: 768px) and (max-width: 1000px){
+    .developed-year {
+        font-size: 25px;
+    }
+}
